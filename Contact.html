@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subheader">
+    <nav>
+        <a href="index.html"><img src="logo.png"/></a>
+        <div class="navlinks" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.php">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+  
+    </section>
+    <!---Contact Us-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14716.489639940308!2d75.90323413621931!3d22.7608380625463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631d5c8cb6d35b%3A0x87f82536b592f7cb!2sMahalaxmi%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452010!5e0!3m2!1sen!2sin!4v1681047618789!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="ContactUS">
+        <div class="row">
+            <div class="ContactCol"> 
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Nagar</h5>
+                        <p>Indore, Madhya Pradesh</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 0145632890</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>nishantkaushal0708@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="ContactCol">
+                <form action="contact.php" method="post">
+                    <input type="text" name="user" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your email address" required>
+                    <input type="text" name="subject" placeholder="Enter Your subject" required>
+                    <textarea rows="8"  name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="herobtn redbtn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!---footer-->
+    <section class="Footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rem neque fuga tempore deserunt quas totam pariatur debitis,<br/> nisi cupiditate ea, minus velit dolorem expedita explicabo culpa ad nemo necessitatibus!</p>
+        
+            <i class="fa fa-facebook" style=" color: #f44336; cursor: pointer;padding: 18px 0;"></i>
+            <i class="fa fa-twitter" style=" color: #f44336; cursor: pointer;padding: 18px 0;"></i>
+            <i class="fa fa-instagram" style=" color: #f44336; cursor: pointer;padding: 18px 0;"></i>
+            <i class="fa fa-linkedin" style=" color: #f44336; cursor: pointer;padding: 18px 0;"></i>
+      
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
